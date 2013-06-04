@@ -71,8 +71,11 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="27">
+                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="27">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="GrI-yP-sDG"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -129,19 +132,19 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDk-he-yHI">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="9n4-cm-QAB"/>
+                                    <constraint firstAttribute="width" constant="128" id="PJR-Pq-DH4"/>
                                     <constraint firstAttribute="height" constant="128" id="qBQ-lY-hhn"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TDk-he-yHI" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2Vh-bG-9H0"/>
                             <constraint firstItem="N6s-QH-BFa" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="61Z-oC-el5"/>
-                            <constraint firstItem="27" firstAttribute="centerY" secondItem="22" secondAttribute="centerY" type="default" id="7cE-gL-0wv"/>
+                            <constraint firstAttribute="bottom" secondItem="27" secondAttribute="bottom" constant="234" id="6O7-tb-ffQ"/>
                             <constraint firstItem="uoN-mP-cL0" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8F9-ca-i5M"/>
                             <constraint firstAttribute="bottom" secondItem="SNe-qq-yWR" secondAttribute="bottom" constant="200" id="9HG-y1-hCY"/>
                             <constraint firstItem="kEC-Zo-Thi" firstAttribute="leading" secondItem="v2D-ek-2oP" secondAttribute="leading" type="default" id="CQb-4w-VDm"/>
-                            <constraint firstItem="TDk-he-yHI" firstAttribute="centerX" secondItem="27" secondAttribute="centerX" type="default" id="E5K-gl-cfV"/>
                             <constraint firstItem="GxN-kn-QXY" firstAttribute="baseline" secondItem="Yei-Wp-4p5" secondAttribute="baseline" type="default" id="FUt-g4-9P0"/>
                             <constraint firstItem="v2D-ek-2oP" firstAttribute="leading" secondItem="GxN-kn-QXY" secondAttribute="leading" type="default" id="GHW-Mj-5Lp"/>
                             <constraint firstItem="r6f-95-Q2S" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Gdd-h1-pMQ"/>
@@ -149,17 +152,16 @@
                             <constraint firstItem="SNe-qq-yWR" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Kmh-Rf-Sip"/>
                             <constraint firstAttribute="bottom" secondItem="r6f-95-Q2S" secondAttribute="bottom" constant="115" id="L0j-86-jHU"/>
                             <constraint firstItem="JzN-Ed-aFM" firstAttribute="leading" secondItem="kEC-Zo-Thi" secondAttribute="leading" type="default" id="Lbb-Uu-b8z"/>
-                            <constraint firstItem="27" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="R0m-z7-TWk"/>
                             <constraint firstAttribute="bottom" secondItem="N6s-QH-BFa" secondAttribute="bottom" constant="73" id="RXC-My-dCf"/>
                             <constraint firstAttribute="bottom" secondItem="uoN-mP-cL0" secondAttribute="bottom" constant="37" id="TFJ-b3-A2Y"/>
                             <constraint firstItem="v2D-ek-2oP" firstAttribute="baseline" secondItem="r6f-95-Q2S" secondAttribute="baseline" type="default" id="TWM-gD-ONv"/>
                             <constraint firstItem="QbS-aT-XOn" firstAttribute="baseline" secondItem="SNe-qq-yWR" secondAttribute="baseline" type="default" id="XST-Mr-Hm5"/>
-                            <constraint firstItem="TDk-he-yHI" firstAttribute="top" secondItem="22" secondAttribute="top" constant="46" id="Zmj-bf-ZqV"/>
                             <constraint firstAttribute="bottom" secondItem="Yei-Wp-4p5" secondAttribute="bottom" constant="156" id="ZvE-KS-GuY"/>
+                            <constraint firstItem="27" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="dPJ-2B-Feg"/>
                             <constraint firstItem="kEC-Zo-Thi" firstAttribute="baseline" secondItem="N6s-QH-BFa" secondAttribute="baseline" type="default" id="fDY-1e-jFJ"/>
                             <constraint firstItem="Yei-Wp-4p5" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="iLo-5h-aca"/>
                             <constraint firstItem="GxN-kn-QXY" firstAttribute="leading" secondItem="QbS-aT-XOn" secondAttribute="leading" type="default" id="kne-jf-mnh"/>
-                            <constraint firstAttribute="trailing" secondItem="27" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pRe-qY-58T"/>
+                            <constraint firstItem="TDk-he-yHI" firstAttribute="top" secondItem="22" secondAttribute="top" constant="20" symbolic="YES" type="default" id="sUn-K7-hYH"/>
                             <constraint firstAttribute="bottom" secondItem="JzN-Ed-aFM" secondAttribute="bottom" constant="31" id="ubv-gr-mHT"/>
                         </constraints>
                     </view>

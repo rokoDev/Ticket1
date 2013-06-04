@@ -55,4 +55,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSUInteger)supportedInterfaceOrientations
+{
+    NSLog(@"jajajaja");
+    return UIInterfaceOrientationMaskAll;//UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskLandscapeLeft;
+}
+
+- (BOOL)shouldAutorotate
+{
+    NSLog(@"kjfjfkjf");
+    return YES;
+}
+
 @end

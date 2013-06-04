@@ -230,4 +230,27 @@
     cell.textLabel.text = [[object valueForKey:/*@"name"*/@"timeStamp"] description];
 }
 
+// Override to allow orientations other than the default portrait orientation.
+// This method is deprecated on ios6
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    NSLog(@"lalalala");
+    return UIInterfaceOrientationIsLandscape( interfaceOrientation );
+}
+
+// For ios6, use supportedInterfaceOrientations & shouldAutorotate instead
+- (NSUInteger) supportedInterfaceOrientations{
+    NSLog(@"akakakak");
+    return UIInterfaceOrientationMaskAll;//UIInterfaceOrientationMaskLandscape;
+    //#ifdef __IPHONE_6_0
+    //    return UIInterfaceOrientationMaskAllButUpsideDown;
+    //#endif
+}
+
+- (BOOL) shouldAutorotate {
+    NSLog(@"grgrgr");
+    return YES;
+}
+
+
+
 @end
