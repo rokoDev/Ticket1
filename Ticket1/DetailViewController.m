@@ -38,6 +38,7 @@
         self.dateofbirthLabel.text = [[self.detailItem valueForKey:@"dateofbirth"] description];
         self.sexLabel.text = [[self.detailItem valueForKey:@"sex"] description];
         self.emailLabel.text = [[self.detailItem valueForKey:@"email"] description];
+        self.userPhoto.image = [UIImage imageWithData:[self.detailItem valueForKey:@"photo"]];
     }
 }
 

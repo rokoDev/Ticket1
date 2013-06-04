@@ -53,6 +53,11 @@
     [newManagedObject setValue:@"male" forKey:@"sex"];
     [newManagedObject setValue:@"mi-han@inbox.ru" forKey:@"email"];
     
+    UIImage *userPhoto = [UIImage imageNamed:@"userface.png"];
+    NSMutableData *photoData = (NSMutableData*)UIImagePNGRepresentation(userPhoto);
+    [newManagedObject setValue:photoData forKey:@"photo"];
+    
+    
     // Save the context.
     NSError *error = nil;
     if (![context save:&error]) {
@@ -222,7 +227,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"name"/*@"timeStamp"*/] description];
+    cell.textLabel.text = [[object valueForKey:/*@"name"*/@"timeStamp"] description];
 }
 
 @end
