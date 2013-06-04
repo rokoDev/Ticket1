@@ -32,6 +32,12 @@
 
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+        
+        self.nameLabel.text = [[self.detailItem valueForKey:@"name"] description];
+        self.surnameLabel.text = [[self.detailItem valueForKey:@"surname"] description];
+        self.dateofbirthLabel.text = [[self.detailItem valueForKey:@"dateofbirth"] description];
+        self.sexLabel.text = [[self.detailItem valueForKey:@"sex"] description];
+        self.emailLabel.text = [[self.detailItem valueForKey:@"email"] description];
     }
 }
 

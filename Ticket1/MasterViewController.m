@@ -47,6 +47,12 @@
     // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
     [newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
     
+    [newManagedObject setValue:@"Mikhail" forKey:@"name"];
+    [newManagedObject setValue:@"Zinkovsky" forKey:@"surname"];
+    [newManagedObject setValue:@"17.11.1986" forKey:@"dateofbirth"];
+    [newManagedObject setValue:@"male" forKey:@"sex"];
+    [newManagedObject setValue:@"mi-han@inbox.ru" forKey:@"email"];
+    
     // Save the context.
     NSError *error = nil;
     if (![context save:&error]) {
@@ -216,7 +222,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
+    cell.textLabel.text = [[object valueForKey:@"name"/*@"timeStamp"*/] description];
 }
 
 @end

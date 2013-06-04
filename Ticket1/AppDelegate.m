@@ -10,6 +10,8 @@
 
 #import "MasterViewController.h"
 
+#import "Event.h"
+
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -58,6 +60,21 @@
     NSError *error = nil;
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
+        
+        //
+//        Event *personalInfo = [NSEntityDescription
+//                                          insertNewObjectForEntityForName:@"Event"
+//                                          inManagedObjectContext:managedObjectContext];
+//        personalInfo.timeStamp = [NSDate date];
+//        personalInfo.name = @"Mikhail";
+//        personalInfo.surname = @"Zinkovsky";
+//        personalInfo.sex = @"male";
+//        personalInfo.email = @"mi-han@inbox.ru";
+//        personalInfo.dateofbirth = @"17.11.1986";
+//        
+//        managedObjectContext.
+        //
+        
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
              // Replace this implementation with code to handle the error appropriately.
              // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
