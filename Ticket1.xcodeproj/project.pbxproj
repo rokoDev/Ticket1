@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18041F09175E0482002C9408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F08175E0482002C9408 /* UIKit.framework */; };
+		18041F0B175E0482002C9408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F0A175E0482002C9408 /* Foundation.framework */; };
+		18041F0D175E0482002C9408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F0C175E0482002C9408 /* CoreGraphics.framework */; };
+		18041F0F175E0482002C9408 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F0E175E0482002C9408 /* CoreData.framework */; };
+		18041F15175E0482002C9408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18041F13175E0482002C9408 /* InfoPlist.strings */; };
+		18041F17175E0482002C9408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F16175E0482002C9408 /* main.m */; };
+		18041F1B175E0482002C9408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F1A175E0482002C9408 /* AppDelegate.m */; };
+		18041F1D175E0482002C9408 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18041F1C175E0482002C9408 /* Default.png */; };
+		18041F1F175E0482002C9408 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18041F1E175E0482002C9408 /* Default@2x.png */; };
+		18041F21175E0482002C9408 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18041F20175E0482002C9408 /* Default-568h@2x.png */; };
+		18041F24175E0482002C9408 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18041F22175E0482002C9408 /* MainStoryboard.storyboard */; };
+		18041F27175E0482002C9408 /* Ticket1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18041F25175E0482002C9408 /* Ticket1.xcdatamodeld */; };
+		18041F2A175E0482002C9408 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F29175E0482002C9408 /* MasterViewController.m */; };
+		18041F2D175E0482002C9408 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F2C175E0482002C9408 /* DetailViewController.m */; };
+		18041F35175E0483002C9408 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F34175E0483002C9408 /* SenTestingKit.framework */; };
+		18041F36175E0483002C9408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F08175E0482002C9408 /* UIKit.framework */; };
+		18041F37175E0483002C9408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F0A175E0482002C9408 /* Foundation.framework */; };
+		18041F38175E0483002C9408 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18041F0E175E0482002C9408 /* CoreData.framework */; };
+		18041F40175E0483002C9408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18041F3E175E0483002C9408 /* InfoPlist.strings */; };
+		18041F43175E0483002C9408 /* Ticket1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F42175E0483002C9408 /* Ticket1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18041F39175E0483002C9408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18041EFD175E0482002C9408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18041F04175E0482002C9408;
+			remoteInfo = Ticket1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18041F05175E0482002C9408 /* Ticket1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18041F08175E0482002C9408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18041F0A175E0482002C9408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18041F0C175E0482002C9408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18041F0E175E0482002C9408 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18041F12175E0482002C9408 /* Ticket1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ticket1-Info.plist"; sourceTree = "<group>"; };
+		18041F14175E0482002C9408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18041F16175E0482002C9408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18041F18175E0482002C9408 /* Ticket1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ticket1-Prefix.pch"; sourceTree = "<group>"; };
+		18041F19175E0482002C9408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18041F1A175E0482002C9408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18041F1C175E0482002C9408 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18041F1E175E0482002C9408 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18041F20175E0482002C9408 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18041F23175E0482002C9408 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18041F26175E0482002C9408 /* Ticket1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ticket1.xcdatamodel; sourceTree = "<group>"; };
+		18041F28175E0482002C9408 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		18041F29175E0482002C9408 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		18041F2B175E0482002C9408 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		18041F2C175E0482002C9408 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		18041F33175E0483002C9408 /* Ticket1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ticket1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18041F34175E0483002C9408 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		18041F3D175E0483002C9408 /* Ticket1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ticket1Tests-Info.plist"; sourceTree = "<group>"; };
+		18041F3F175E0483002C9408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18041F41175E0483002C9408 /* Ticket1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ticket1Tests.h; sourceTree = "<group>"; };
+		18041F42175E0483002C9408 /* Ticket1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ticket1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18041F02175E0482002C9408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18041F09175E0482002C9408 /* UIKit.framework in Frameworks */,
+				18041F0B175E0482002C9408 /* Foundation.framework in Frameworks */,
+				18041F0D175E0482002C9408 /* CoreGraphics.framework in Frameworks */,
+				18041F0F175E0482002C9408 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18041F2F175E0483002C9408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18041F35175E0483002C9408 /* SenTestingKit.framework in Frameworks */,
+				18041F36175E0483002C9408 /* UIKit.framework in Frameworks */,
+				18041F37175E0483002C9408 /* Foundation.framework in Frameworks */,
+				18041F38175E0483002C9408 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18041EFC175E0482002C9408 = {
+			isa = PBXGroup;
+			children = (
+				18041F10175E0482002C9408 /* Ticket1 */,
+				18041F3B175E0483002C9408 /* Ticket1Tests */,
+				18041F07175E0482002C9408 /* Frameworks */,
+				18041F06175E0482002C9408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18041F06175E0482002C9408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18041F05175E0482002C9408 /* Ticket1.app */,
+				18041F33175E0483002C9408 /* Ticket1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18041F07175E0482002C9408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18041F08175E0482002C9408 /* UIKit.framework */,
+				18041F0A175E0482002C9408 /* Foundation.framework */,
+				18041F0C175E0482002C9408 /* CoreGraphics.framework */,
+				18041F0E175E0482002C9408 /* CoreData.framework */,
+				18041F34175E0483002C9408 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18041F10175E0482002C9408 /* Ticket1 */ = {
+			isa = PBXGroup;
+			children = (
+				18041F19175E0482002C9408 /* AppDelegate.h */,
+				18041F1A175E0482002C9408 /* AppDelegate.m */,
+				18041F22175E0482002C9408 /* MainStoryboard.storyboard */,
+				18041F28175E0482002C9408 /* MasterViewController.h */,
+				18041F29175E0482002C9408 /* MasterViewController.m */,
+				18041F2B175E0482002C9408 /* DetailViewController.h */,
+				18041F2C175E0482002C9408 /* DetailViewController.m */,
+				18041F25175E0482002C9408 /* Ticket1.xcdatamodeld */,
+				18041F11175E0482002C9408 /* Supporting Files */,
+			);
+			path = Ticket1;
+			sourceTree = "<group>";
+		};
+		18041F11175E0482002C9408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18041F12175E0482002C9408 /* Ticket1-Info.plist */,
+				18041F13175E0482002C9408 /* InfoPlist.strings */,
+				18041F16175E0482002C9408 /* main.m */,
+				18041F18175E0482002C9408 /* Ticket1-Prefix.pch */,
+				18041F1C175E0482002C9408 /* Default.png */,
+				18041F1E175E0482002C9408 /* Default@2x.png */,
+				18041F20175E0482002C9408 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18041F3B175E0483002C9408 /* Ticket1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18041F41175E0483002C9408 /* Ticket1Tests.h */,
+				18041F42175E0483002C9408 /* Ticket1Tests.m */,
+				18041F3C175E0483002C9408 /* Supporting Files */,
+			);
+			path = Ticket1Tests;
+			sourceTree = "<group>";
+		};
+		18041F3C175E0483002C9408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18041F3D175E0483002C9408 /* Ticket1Tests-Info.plist */,
+				18041F3E175E0483002C9408 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18041F04175E0482002C9408 /* Ticket1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18041F46175E0483002C9408 /* Build configuration list for PBXNativeTarget "Ticket1" */;
+			buildPhases = (
+				18041F01175E0482002C9408 /* Sources */,
+				18041F02175E0482002C9408 /* Frameworks */,
+				18041F03175E0482002C9408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ticket1;
+			productName = Ticket1;
+			productReference = 18041F05175E0482002C9408 /* Ticket1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18041F32175E0483002C9408 /* Ticket1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18041F49175E0483002C9408 /* Build configuration list for PBXNativeTarget "Ticket1Tests" */;
+			buildPhases = (
+				18041F2E175E0483002C9408 /* Sources */,
+				18041F2F175E0483002C9408 /* Frameworks */,
+				18041F30175E0483002C9408 /* Resources */,
+				18041F31175E0483002C9408 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18041F3A175E0483002C9408 /* PBXTargetDependency */,
+			);
+			name = Ticket1Tests;
+			productName = Ticket1Tests;
+			productReference = 18041F33175E0483002C9408 /* Ticket1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18041EFD175E0482002C9408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = roko;
+			};
+			buildConfigurationList = 18041F00175E0482002C9408 /* Build configuration list for PBXProject "Ticket1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18041EFC175E0482002C9408;
+			productRefGroup = 18041F06175E0482002C9408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18041F04175E0482002C9408 /* Ticket1 */,
+				18041F32175E0483002C9408 /* Ticket1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18041F03175E0482002C9408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18041F15175E0482002C9408 /* InfoPlist.strings in Resources */,
+				18041F1D175E0482002C9408 /* Default.png in Resources */,
+				18041F1F175E0482002C9408 /* Default@2x.png in Resources */,
+				18041F21175E0482002C9408 /* Default-568h@2x.png in Resources */,
+				18041F24175E0482002C9408 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18041F30175E0483002C9408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18041F40175E0483002C9408 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18041F31175E0483002C9408 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18041F01175E0482002C9408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18041F17175E0482002C9408 /* main.m in Sources */,
+				18041F1B175E0482002C9408 /* AppDelegate.m in Sources */,
+				18041F27175E0482002C9408 /* Ticket1.xcdatamodeld in Sources */,
+				18041F2A175E0482002C9408 /* MasterViewController.m in Sources */,
+				18041F2D175E0482002C9408 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18041F2E175E0483002C9408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18041F43175E0483002C9408 /* Ticket1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18041F3A175E0483002C9408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18041F04175E0482002C9408 /* Ticket1 */;
+			targetProxy = 18041F39175E0483002C9408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18041F13175E0482002C9408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18041F14175E0482002C9408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18041F22175E0482002C9408 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18041F23175E0482002C9408 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		18041F3E175E0483002C9408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18041F3F175E0483002C9408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18041F44175E0483002C9408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18041F45175E0483002C9408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18041F47175E0483002C9408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticket1/Ticket1-Prefix.pch";
+				INFOPLIST_FILE = "Ticket1/Ticket1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18041F48175E0483002C9408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticket1/Ticket1-Prefix.pch";
+				INFOPLIST_FILE = "Ticket1/Ticket1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18041F4A175E0483002C9408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ticket1.app/Ticket1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticket1/Ticket1-Prefix.pch";
+				INFOPLIST_FILE = "Ticket1Tests/Ticket1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18041F4B175E0483002C9408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ticket1.app/Ticket1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticket1/Ticket1-Prefix.pch";
+				INFOPLIST_FILE = "Ticket1Tests/Ticket1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18041F00175E0482002C9408 /* Build configuration list for PBXProject "Ticket1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18041F44175E0483002C9408 /* Debug */,
+				18041F45175E0483002C9408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18041F46175E0483002C9408 /* Build configuration list for PBXNativeTarget "Ticket1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18041F47175E0483002C9408 /* Debug */,
+				18041F48175E0483002C9408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18041F49175E0483002C9408 /* Build configuration list for PBXNativeTarget "Ticket1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18041F4A175E0483002C9408 /* Debug */,
+				18041F4B175E0483002C9408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18041F25175E0482002C9408 /* Ticket1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18041F26175E0482002C9408 /* Ticket1.xcdatamodel */,
+			);
+			currentVersion = 18041F26175E0482002C9408 /* Ticket1.xcdatamodel */;
+			path = Ticket1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18041EFD175E0482002C9408 /* Project object */;
+}
