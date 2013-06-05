@@ -9,11 +9,14 @@
 #import <SenTestingKit/SenTestingKit.h>
 
 #import <UIKit/UIKit.h>
+#import "MasterViewController.h"
 
 @interface Ticket1Tests : SenTestCase
 {
     UITableViewCell * cell;
     NSIndexPath * indexPath;
+    NSFetchedResultsController * frc;
+    MasterViewController *mvc;
 }
 
 @end
