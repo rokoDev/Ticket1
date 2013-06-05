@@ -139,7 +139,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="TDk-he-yHI" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="2Vh-bG-9H0"/>
+                            <constraint firstAttribute="trailing" secondItem="TDk-he-yHI" secondAttribute="trailing" constant="22" id="4nb-8N-TUI"/>
                             <constraint firstItem="N6s-QH-BFa" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="61Z-oC-el5"/>
                             <constraint firstAttribute="bottom" secondItem="27" secondAttribute="bottom" constant="234" id="6O7-tb-ffQ"/>
                             <constraint firstItem="uoN-mP-cL0" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8F9-ca-i5M"/>

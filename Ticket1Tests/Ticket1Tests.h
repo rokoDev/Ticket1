@@ -8,6 +8,12 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+#import <UIKit/UIKit.h>
+
 @interface Ticket1Tests : SenTestCase
+{
+    UITableViewCell * cell;
+    NSIndexPath * indexPath;
+}
 
 @end

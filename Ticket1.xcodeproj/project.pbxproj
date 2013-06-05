@@ -29,6 +29,9 @@
 		18041F43175E0483002C9408 /* Ticket1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F42175E0483002C9408 /* Ticket1Tests.m */; };
 		18161B6F175E16B800C8C8DC /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 18161B6E175E16B800C8C8DC /* Event.m */; };
 		18161B71175E2A5B00C8C8DC /* userface.png in Resources */ = {isa = PBXBuildFile; fileRef = 18161B70175E2A5B00C8C8DC /* userface.png */; };
+		18161B77175E81A200C8C8DC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F29175E0482002C9408 /* MasterViewController.m */; };
+		18161B78175F195200C8C8DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F2C175E0482002C9408 /* DetailViewController.m */; };
+		18161B79175F1F8D00C8C8DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18041F1A175E0482002C9408 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,6 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18041F43175E0483002C9408 /* Ticket1Tests.m in Sources */,
+				18161B77175E81A200C8C8DC /* MasterViewController.m in Sources */,
+				18161B78175F195200C8C8DC /* DetailViewController.m in Sources */,
+				18161B79175F1F8D00C8C8DC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
